@@ -1,0 +1,80 @@
+.jumbotron{
+  background-image: url('https://media3.giphy.com/media/OxwuhoLnIcWk0/giphy.gif');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.display-3 {
+  color: #F0F8FF;
+}
+.pp {
+  color: brown;
+}
+.body {
+  font-family: Arial;
+  padding: 20px;
+  background: #f1f1f1;
+}
+
+.header {
+  padding: 30px;
+  font-size: 40px;
+  text-align: center;
+  background: white;
+}
+
+.leftcolumn {
+  float: left;
+  width: 75%;
+}
+
+.rightcolumn {
+  float: left;
+  width: 25%;
+  padding-left: 20px;
+}
+
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {
+    width: 100%;
+    padding: 0;
+  }
+}
+.morecontent span {
+    display: none;
+}
+.morelink {
+    display: block;
+}
+.body1{
+  background-image: url('https://source.unsplash.com/DuBNA1QMpPA/1900x1200');
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  margin:0;
+  height:5000px;
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+.fa-linkedin {
+  background: #55ACEE;
+  color: white;
+}
